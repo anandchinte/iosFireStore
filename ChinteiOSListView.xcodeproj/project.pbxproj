@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD493332612500100087CC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493322612500100087CC1 /* AppDelegate.swift */; };
+		EDD493352612500100087CC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493342612500100087CC1 /* SceneDelegate.swift */; };
+		EDD493372612500100087CC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493362612500100087CC1 /* ViewController.swift */; };
+		EDD4933A2612500100087CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD493382612500100087CC1 /* Main.storyboard */; };
+		EDD4933C2612500400087CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD4933B2612500400087CC1 /* Assets.xcassets */; };
+		EDD4933F2612500400087CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD4933D2612500400087CC1 /* LaunchScreen.storyboard */; };
+		EDD4934A2612500500087CC1 /* ChinteiOSListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493492612500500087CC1 /* ChinteiOSListViewTests.swift */; };
+		EDD493552612500500087CC1 /* ChinteiOSListViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493542612500500087CC1 /* ChinteiOSListViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD493462612500500087CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD493272612500100087CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD4932E2612500100087CC1;
+			remoteInfo = ChinteiOSListView;
+		};
+		EDD493512612500500087CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD493272612500100087CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD4932E2612500100087CC1;
+			remoteInfo = ChinteiOSListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDD4932F2612500100087CC1 /* ChinteiOSListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinteiOSListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD493322612500100087CC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDD493342612500100087CC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDD493362612500100087CC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDD493392612500100087CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDD4933B2612500400087CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD4933E2612500400087CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDD493402612500400087CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD493452612500500087CC1 /* ChinteiOSListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinteiOSListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD493492612500500087CC1 /* ChinteiOSListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinteiOSListViewTests.swift; sourceTree = "<group>"; };
+		EDD4934B2612500500087CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD493502612500500087CC1 /* ChinteiOSListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinteiOSListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD493542612500500087CC1 /* ChinteiOSListViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinteiOSListViewUITests.swift; sourceTree = "<group>"; };
+		EDD493562612500500087CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD4932C2612500100087CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD493422612500500087CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD4934D2612500500087CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD493262612500100087CC1 = {
+			isa = PBXGroup;
+			children = (
+				EDD493312612500100087CC1 /* ChinteiOSListView */,
+				EDD493482612500500087CC1 /* ChinteiOSListViewTests */,
+				EDD493532612500500087CC1 /* ChinteiOSListViewUITests */,
+				EDD493302612500100087CC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD493302612500100087CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4932F2612500100087CC1 /* ChinteiOSListView.app */,
+				EDD493452612500500087CC1 /* ChinteiOSListViewTests.xctest */,
+				EDD493502612500500087CC1 /* ChinteiOSListViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD493312612500100087CC1 /* ChinteiOSListView */ = {
+			isa = PBXGroup;
+			children = (
+				EDD493322612500100087CC1 /* AppDelegate.swift */,
+				EDD493342612500100087CC1 /* SceneDelegate.swift */,
+				EDD493362612500100087CC1 /* ViewController.swift */,
+				EDD493382612500100087CC1 /* Main.storyboard */,
+				EDD4933B2612500400087CC1 /* Assets.xcassets */,
+				EDD4933D2612500400087CC1 /* LaunchScreen.storyboard */,
+				EDD493402612500400087CC1 /* Info.plist */,
+			);
+			path = ChinteiOSListView;
+			sourceTree = "<group>";
+		};
+		EDD493482612500500087CC1 /* ChinteiOSListViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD493492612500500087CC1 /* ChinteiOSListViewTests.swift */,
+				EDD4934B2612500500087CC1 /* Info.plist */,
+			);
+			path = ChinteiOSListViewTests;
+			sourceTree = "<group>";
+		};
+		EDD493532612500500087CC1 /* ChinteiOSListViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD493542612500500087CC1 /* ChinteiOSListViewUITests.swift */,
+				EDD493562612500500087CC1 /* Info.plist */,
+			);
+			path = ChinteiOSListViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD4932E2612500100087CC1 /* ChinteiOSListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD493592612500500087CC1 /* Build configuration list for PBXNativeTarget "ChinteiOSListView" */;
+			buildPhases = (
+				EDD4932B2612500100087CC1 /* Sources */,
+				EDD4932C2612500100087CC1 /* Frameworks */,
+				EDD4932D2612500100087CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChinteiOSListView;
+			productName = ChinteiOSListView;
+			productReference = EDD4932F2612500100087CC1 /* ChinteiOSListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDD493442612500500087CC1 /* ChinteiOSListViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD4935C2612500500087CC1 /* Build configuration list for PBXNativeTarget "ChinteiOSListViewTests" */;
+			buildPhases = (
+				EDD493412612500500087CC1 /* Sources */,
+				EDD493422612500500087CC1 /* Frameworks */,
+				EDD493432612500500087CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD493472612500500087CC1 /* PBXTargetDependency */,
+			);
+			name = ChinteiOSListViewTests;
+			productName = ChinteiOSListViewTests;
+			productReference = EDD493452612500500087CC1 /* ChinteiOSListViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDD4934F2612500500087CC1 /* ChinteiOSListViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD4935F2612500500087CC1 /* Build configuration list for PBXNativeTarget "ChinteiOSListViewUITests" */;
+			buildPhases = (
+				EDD4934C2612500500087CC1 /* Sources */,
+				EDD4934D2612500500087CC1 /* Frameworks */,
+				EDD4934E2612500500087CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD493522612500500087CC1 /* PBXTargetDependency */,
+			);
+			name = ChinteiOSListViewUITests;
+			productName = ChinteiOSListViewUITests;
+			productReference = EDD493502612500500087CC1 /* ChinteiOSListViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD493272612500100087CC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EDD4932E2612500100087CC1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EDD493442612500500087CC1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDD4932E2612500100087CC1;
+					};
+					EDD4934F2612500500087CC1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDD4932E2612500100087CC1;
+					};
+				};
+			};
+			buildConfigurationList = EDD4932A2612500100087CC1 /* Build configuration list for PBXProject "ChinteiOSListView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD493262612500100087CC1;
+			productRefGroup = EDD493302612500100087CC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD4932E2612500100087CC1 /* ChinteiOSListView */,
+				EDD493442612500500087CC1 /* ChinteiOSListViewTests */,
+				EDD4934F2612500500087CC1 /* ChinteiOSListViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD4932D2612500100087CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD4933F2612500400087CC1 /* LaunchScreen.storyboard in Resources */,
+				EDD4933C2612500400087CC1 /* Assets.xcassets in Resources */,
+				EDD4933A2612500100087CC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD493432612500500087CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD4934E2612500500087CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD4932B2612500100087CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD493372612500100087CC1 /* ViewController.swift in Sources */,
+				EDD493332612500100087CC1 /* AppDelegate.swift in Sources */,
+				EDD493352612500100087CC1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD493412612500500087CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD4934A2612500500087CC1 /* ChinteiOSListViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD4934C2612500500087CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD493552612500500087CC1 /* ChinteiOSListViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD493472612500500087CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD4932E2612500100087CC1 /* ChinteiOSListView */;
+			targetProxy = EDD493462612500500087CC1 /* PBXContainerItemProxy */;
+		};
+		EDD493522612500500087CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD4932E2612500100087CC1 /* ChinteiOSListView */;
+			targetProxy = EDD493512612500500087CC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDD493382612500100087CC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD493392612500100087CC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDD4933D2612500400087CC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD4933E2612500400087CC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDD493572612500500087CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDD493582612500500087CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD4935A2612500500087CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT72VQ38LU;
+				INFOPLIST_FILE = ChinteiOSListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anandchinte.ChinteiOSListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDD4935B2612500500087CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT72VQ38LU;
+				INFOPLIST_FILE = ChinteiOSListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anandchinte.ChinteiOSListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDD4935D2612500500087CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT72VQ38LU;
+				INFOPLIST_FILE = ChinteiOSListViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anandchinte.ChinteiOSListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChinteiOSListView.app/ChinteiOSListView";
+			};
+			name = Debug;
+		};
+		EDD4935E2612500500087CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT72VQ38LU;
+				INFOPLIST_FILE = ChinteiOSListViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anandchinte.ChinteiOSListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChinteiOSListView.app/ChinteiOSListView";
+			};
+			name = Release;
+		};
+		EDD493602612500500087CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT72VQ38LU;
+				INFOPLIST_FILE = ChinteiOSListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anandchinte.ChinteiOSListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChinteiOSListView;
+			};
+			name = Debug;
+		};
+		EDD493612612500500087CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT72VQ38LU;
+				INFOPLIST_FILE = ChinteiOSListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anandchinte.ChinteiOSListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChinteiOSListView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD4932A2612500100087CC1 /* Build configuration list for PBXProject "ChinteiOSListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD493572612500500087CC1 /* Debug */,
+				EDD493582612500500087CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD493592612500500087CC1 /* Build configuration list for PBXNativeTarget "ChinteiOSListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD4935A2612500500087CC1 /* Debug */,
+				EDD4935B2612500500087CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD4935C2612500500087CC1 /* Build configuration list for PBXNativeTarget "ChinteiOSListViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD4935D2612500500087CC1 /* Debug */,
+				EDD4935E2612500500087CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD4935F2612500500087CC1 /* Build configuration list for PBXNativeTarget "ChinteiOSListViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD493602612500500087CC1 /* Debug */,
+				EDD493612612500500087CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD493272612500100087CC1 /* Project object */;
+}
