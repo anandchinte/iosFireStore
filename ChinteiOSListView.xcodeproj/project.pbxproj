@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3032C286E9911BCC45B0AE7A /* Pods_ChinteiOSListView_ChinteiOSListViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6F6881849444854A586E84 /* Pods_ChinteiOSListView_ChinteiOSListViewUITests.framework */; };
+		6C759E946F965710FC79C996 /* Pods_ChinteiOSListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E3CA6C2A6ADC7DB83D9938 /* Pods_ChinteiOSListView.framework */; };
+		EC9A2D6562CCFA7FCA22E08E /* Pods_ChinteiOSListViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99C72EFED640CAEDCD6232C /* Pods_ChinteiOSListViewTests.framework */; };
 		EDD493332612500100087CC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493322612500100087CC1 /* AppDelegate.swift */; };
 		EDD493352612500100087CC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493342612500100087CC1 /* SceneDelegate.swift */; };
 		EDD493372612500100087CC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493362612500100087CC1 /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		EDD4933F2612500400087CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD4933D2612500400087CC1 /* LaunchScreen.storyboard */; };
 		EDD4934A2612500500087CC1 /* ChinteiOSListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493492612500500087CC1 /* ChinteiOSListViewTests.swift */; };
 		EDD493552612500500087CC1 /* ChinteiOSListViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493542612500500087CC1 /* ChinteiOSListViewUITests.swift */; };
+		EDD49380261256B700087CC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDD4937F261256B700087CC1 /* GoogleService-Info.plist */; };
+		EDD493992612945100087CC1 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD493982612945100087CC1 /* ImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2945129814612A1CA0E209F5 /* Pods-ChinteiOSListViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinteiOSListViewTests.release.xcconfig"; path = "Target Support Files/Pods-ChinteiOSListViewTests/Pods-ChinteiOSListViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		48F3CE6E103128D4F82B0BC0 /* Pods-ChinteiOSListView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinteiOSListView.debug.xcconfig"; path = "Target Support Files/Pods-ChinteiOSListView/Pods-ChinteiOSListView.debug.xcconfig"; sourceTree = "<group>"; };
+		63906F4FD22CDCC1F3067A83 /* Pods-ChinteiOSListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinteiOSListView.release.xcconfig"; path = "Target Support Files/Pods-ChinteiOSListView/Pods-ChinteiOSListView.release.xcconfig"; sourceTree = "<group>"; };
+		74BFACE55E414E20CBA69EA4 /* Pods-ChinteiOSListViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinteiOSListViewTests.debug.xcconfig"; path = "Target Support Files/Pods-ChinteiOSListViewTests/Pods-ChinteiOSListViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACF69696D1CA16C3D880B692 /* Pods-ChinteiOSListView-ChinteiOSListViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinteiOSListView-ChinteiOSListViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChinteiOSListView-ChinteiOSListViewUITests/Pods-ChinteiOSListView-ChinteiOSListViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6F6881849444854A586E84 /* Pods_ChinteiOSListView_ChinteiOSListViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChinteiOSListView_ChinteiOSListViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99C72EFED640CAEDCD6232C /* Pods_ChinteiOSListViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChinteiOSListViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8821A60CD586B09A38899A /* Pods-ChinteiOSListView-ChinteiOSListViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinteiOSListView-ChinteiOSListViewUITests.release.xcconfig"; path = "Target Support Files/Pods-ChinteiOSListView-ChinteiOSListViewUITests/Pods-ChinteiOSListView-ChinteiOSListViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0E3CA6C2A6ADC7DB83D9938 /* Pods_ChinteiOSListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChinteiOSListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD4932F2612500100087CC1 /* ChinteiOSListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinteiOSListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD493322612500100087CC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD493342612500100087CC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		EDD493502612500500087CC1 /* ChinteiOSListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinteiOSListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD493542612500500087CC1 /* ChinteiOSListViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinteiOSListViewUITests.swift; sourceTree = "<group>"; };
 		EDD493562612500500087CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD4937F261256B700087CC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDD493982612945100087CC1 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C759E946F965710FC79C996 /* Pods_ChinteiOSListView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9A2D6562CCFA7FCA22E08E /* Pods_ChinteiOSListViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3032C286E9911BCC45B0AE7A /* Pods_ChinteiOSListView_ChinteiOSListViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A400F3268BB2E0CC8820227F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48F3CE6E103128D4F82B0BC0 /* Pods-ChinteiOSListView.debug.xcconfig */,
+				63906F4FD22CDCC1F3067A83 /* Pods-ChinteiOSListView.release.xcconfig */,
+				ACF69696D1CA16C3D880B692 /* Pods-ChinteiOSListView-ChinteiOSListViewUITests.debug.xcconfig */,
+				DC8821A60CD586B09A38899A /* Pods-ChinteiOSListView-ChinteiOSListViewUITests.release.xcconfig */,
+				74BFACE55E414E20CBA69EA4 /* Pods-ChinteiOSListViewTests.debug.xcconfig */,
+				2945129814612A1CA0E209F5 /* Pods-ChinteiOSListViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6A95293746D2EAE9BAB3DD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0E3CA6C2A6ADC7DB83D9938 /* Pods_ChinteiOSListView.framework */,
+				CD6F6881849444854A586E84 /* Pods_ChinteiOSListView_ChinteiOSListViewUITests.framework */,
+				D99C72EFED640CAEDCD6232C /* Pods_ChinteiOSListViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDD493262612500100087CC1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				EDD493482612500500087CC1 /* ChinteiOSListViewTests */,
 				EDD493532612500500087CC1 /* ChinteiOSListViewUITests */,
 				EDD493302612500100087CC1 /* Products */,
+				A400F3268BB2E0CC8820227F /* Pods */,
+				E6A95293746D2EAE9BAB3DD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +144,14 @@
 			isa = PBXGroup;
 			children = (
 				EDD493322612500100087CC1 /* AppDelegate.swift */,
+				EDD4937F261256B700087CC1 /* GoogleService-Info.plist */,
 				EDD493342612500100087CC1 /* SceneDelegate.swift */,
 				EDD493362612500100087CC1 /* ViewController.swift */,
 				EDD493382612500100087CC1 /* Main.storyboard */,
 				EDD4933B2612500400087CC1 /* Assets.xcassets */,
 				EDD4933D2612500400087CC1 /* LaunchScreen.storyboard */,
 				EDD493402612500400087CC1 /* Info.plist */,
+				EDD493982612945100087CC1 /* ImageExtensions.swift */,
 			);
 			path = ChinteiOSListView;
 			sourceTree = "<group>";
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDD493592612500500087CC1 /* Build configuration list for PBXNativeTarget "ChinteiOSListView" */;
 			buildPhases = (
+				3CD247E9E7E7C8A6954364C6 /* [CP] Check Pods Manifest.lock */,
 				EDD4932B2612500100087CC1 /* Sources */,
 				EDD4932C2612500100087CC1 /* Frameworks */,
 				EDD4932D2612500100087CC1 /* Resources */,
+				02AAD6BF857D5348AA8CD8DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDD4935C2612500500087CC1 /* Build configuration list for PBXNativeTarget "ChinteiOSListViewTests" */;
 			buildPhases = (
+				D51360D00A6C2BD1165312AB /* [CP] Check Pods Manifest.lock */,
 				EDD493412612500500087CC1 /* Sources */,
 				EDD493422612500500087CC1 /* Frameworks */,
 				EDD493432612500500087CC1 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDD4935F2612500500087CC1 /* Build configuration list for PBXNativeTarget "ChinteiOSListViewUITests" */;
 			buildPhases = (
+				5308379AFB34EDC20959E2D7 /* [CP] Check Pods Manifest.lock */,
 				EDD4934C2612500500087CC1 /* Sources */,
 				EDD4934D2612500500087CC1 /* Frameworks */,
 				EDD4934E2612500500087CC1 /* Resources */,
+				8CE2B4CD4FB395BDD55AF6AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD4933F2612500400087CC1 /* LaunchScreen.storyboard in Resources */,
+				EDD49380261256B700087CC1 /* GoogleService-Info.plist in Resources */,
 				EDD4933C2612500400087CC1 /* Assets.xcassets in Resources */,
 				EDD4933A2612500100087CC1 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +305,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02AAD6BF857D5348AA8CD8DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChinteiOSListView/Pods-ChinteiOSListView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChinteiOSListView/Pods-ChinteiOSListView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChinteiOSListView/Pods-ChinteiOSListView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD247E9E7E7C8A6954364C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChinteiOSListView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5308379AFB34EDC20959E2D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChinteiOSListView-ChinteiOSListViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CE2B4CD4FB395BDD55AF6AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChinteiOSListView-ChinteiOSListViewUITests/Pods-ChinteiOSListView-ChinteiOSListViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChinteiOSListView-ChinteiOSListViewUITests/Pods-ChinteiOSListView-ChinteiOSListViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChinteiOSListView-ChinteiOSListViewUITests/Pods-ChinteiOSListView-ChinteiOSListViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51360D00A6C2BD1165312AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChinteiOSListViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDD4932B2612500100087CC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +416,7 @@
 				EDD493372612500100087CC1 /* ViewController.swift in Sources */,
 				EDD493332612500100087CC1 /* AppDelegate.swift in Sources */,
 				EDD493352612500100087CC1 /* SceneDelegate.swift in Sources */,
+				EDD493992612945100087CC1 /* ImageExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +589,7 @@
 		};
 		EDD4935A2612500500087CC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F3CE6E103128D4F82B0BC0 /* Pods-ChinteiOSListView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +609,7 @@
 		};
 		EDD4935B2612500500087CC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63906F4FD22CDCC1F3067A83 /* Pods-ChinteiOSListView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +629,7 @@
 		};
 		EDD4935D2612500500087CC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BFACE55E414E20CBA69EA4 /* Pods-ChinteiOSListViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +652,7 @@
 		};
 		EDD4935E2612500500087CC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2945129814612A1CA0E209F5 /* Pods-ChinteiOSListViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +675,7 @@
 		};
 		EDD493602612500500087CC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF69696D1CA16C3D880B692 /* Pods-ChinteiOSListView-ChinteiOSListViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +696,7 @@
 		};
 		EDD493612612500500087CC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8821A60CD586B09A38899A /* Pods-ChinteiOSListView-ChinteiOSListViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

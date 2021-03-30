@@ -4,16 +4,25 @@
 //
 //  Created by anand chinte on 3/29/21.
 //
-
+import Firebase
 import UIKit
-
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        AppCenter.start(withAppSecret: "71f7fefc-8ead-4893-a40e-aa3e66c51f39", services:[
+          Analytics.self,
+          Crashes.self
+        ])
+        
+        FirebaseApp.configure()
+        
         return true
     }
 

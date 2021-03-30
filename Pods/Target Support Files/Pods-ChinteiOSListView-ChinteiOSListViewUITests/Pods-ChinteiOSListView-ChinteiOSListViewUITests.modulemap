@@ -1,0 +1,6 @@
+framework module Pods_ChinteiOSListView_ChinteiOSListViewUITests {
+  umbrella header "Pods-ChinteiOSListView-ChinteiOSListViewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
